@@ -11,6 +11,6 @@ class ReportBuilderTest {
         Authorization authorization = new Authorization();
         assertTrue(authorization.authorize(db));
         ReportBuilder reportBuilder = new ReportBuilder(db);
-        assertEquals(reportBuilder.buildReport(), "User data: ahello, statistic data: hello2");
+        assertEquals(reportBuilder.buildReport(), "User data: hello, statistic data: hello2");
     }
 }
