@@ -35,7 +35,6 @@ public class Database {
         statement.close();
     }
 
-
     public static Database getInstance() throws SQLException {
         if (database == null)
             database = new Database();
